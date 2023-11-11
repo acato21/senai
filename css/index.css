@@ -20,6 +20,12 @@ body{
 
 }
 
+button{
+
+    cursor: pointer;
+
+}
+
 menu{
 
     background: #1756a5;
@@ -54,6 +60,7 @@ nav{
 nav button{
 
     border: none;
+    background: none;
 
 }
 
@@ -83,6 +90,8 @@ nav button{
 
     width: fit-content;
     display: flex;
+    gap: 2rem;
+    align-items: center;
 
 }
 
@@ -93,6 +102,7 @@ nav button{
     align-items: center;
     color: black;
     text-decoration: none;
+    line-height: rem;
 
 }
 
@@ -113,6 +123,7 @@ nav button{
     
     display: flex;
     justify-content: space-between;
+    background: purple;
 
 }
 
@@ -127,8 +138,76 @@ h2{
 
 .apresentacao img{
 
-    width: 16rem;
+    width: 20rem;
     height: 16rem;
+
+}
+
+.cursos{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.cursos{
+
+    position: relative;
+
+}
+
+.cursos a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+
+}
+
+.cursos img{
+
+    width: 40rem;
+    height: 20rem;
+    filter: brightness(.8);
+    border-radius: .8rem;
+    margin-right: 2rem;
+
+}
+
+.cursos span{
+
+    position: absolute;
+    bottom: 2.6rem;
+    left: 2.8rem;
+
+}
+
+.continue-aprendendo{
+
+    display: flex;
+    align-items: center;
+
+}
+
+#insentivo{
+
+    color: white;
+    font-size: 4rem;
+    
+
+}
+
+.cursos a{
+
+    transition: all 200ms;
+
+}
+
+.cursos a:hover{
+
+    transform: scale(1.1);
 
 }
 
@@ -172,7 +251,7 @@ h2{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: .8rem;
-    background: blanchedalmond;
+    background: yellowgreen;
 
 }
 
