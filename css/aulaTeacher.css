@@ -115,72 +115,85 @@ nav button{
 
 .corpo-pag{
 
-   height: 56.6rem;
-   display: flex;
-   flex-direction: column;
-
-    background: url(../img/back-enfermagem.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(10px);
-
-}
-
-/*Bot*/
-
-#jojo{
-
-    position: fixed;
-    border: none;
-    border-radius: 50%;
-    bottom: 3rem;
-    right: 3rem;
-    width: fit-content;
-    height: 5rem;
-
-    cursor: pointer;
-
-}
-
-#jojo img{
-
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    
-}
-
-/*Fora da pagina*/
-
-h1{
-
-    font-size: 4rem;
-    margin: 1rem auto;
-    color: purple;
-
-}
-
-table{
-
-    border: 1px solid purple;
-    margin: 5rem auto;
-
-    width: fit-content;
+    height: 53.8rem;
+    display: flex;
+    flex-direction: column;
     backdrop-filter: brightness(.8);
+    background: linear-gradient(cyan, rgb(40, 88, 104));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-table td{
+/*Central*/
 
-    border: 1px solid purple;
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: fit-content;
+
+    background: rgb(240, 234, 234);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
     padding: 2rem;
+    border-radius: .8rem;
+}
+
+label{
+
+    font-weight: bold;
 
 }
 
-table a{
+textarea{
 
-    text-decoration: none;
-    color: red;
+    resize: none;
+
+}
+
+.input-wrapper{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+
+    border-radius: .8rem;
+    padding: .7rem;
+    border: 1px solid black;
+
+}
+
+.input-wrapper + .input-wrapper{
+
+    margin-top: 2rem;
+
+}
+
+textarea{
+
+    border-radius: .8rem;
+    border: 1px solid black;
+    padding: 1rem;
+
+}
+
+button{
+
+    margin-top: 1rem;
+    padding: 2rem;
+    background: #1756a5;
+    border: none;
+    border-radius: .8rem;
     
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
 
 }
